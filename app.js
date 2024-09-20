@@ -16,7 +16,7 @@ mongoose
 const dataSchema = new mongoose.Schema({
   id: Number,
   name: String,
-  stadescriptiontus: String,
+  description: String,
   price: Number,
 });
 
